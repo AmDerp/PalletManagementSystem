@@ -17,7 +17,7 @@ ROI_REGISTERS = {
 request_sent = {}
 consecutive_detection_count = {}
 detection_count = {}
-model = torch.hub.load('ultralytics/yolov5', 'custom', path='/home/df/am/yolov5/runs/train/exp17/weights/best.pt')
+model = torch.hub.load('ultralytics/yolov5', 'custom', path='/home/df/am/yolov5/runs/train/exp17/weights/best.pt') #Change the directory if using new weights. 
 target_classes = ['Pallet']
 pts_list = []
 roi_count = 0
