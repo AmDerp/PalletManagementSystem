@@ -2,31 +2,44 @@ PalletManagementSystem
 
 Getting Started : 
 
-Create a Virtual Environment
+**Step 1 : Creating a Virtual Environment**
 
-    Step 1: curl https://pyenv.run | bash
-    Step 2: nano ~/.bashrc
+    curl https://pyenv.run | bash
+    nano ~/.bashrc
+    
 Add the code below at the end of the line. 
+
     export PATH="$HOME/.pyenv/bin:$PATH"
     eval "$(pyenv init --path)"
     eval "$(pyenv init -)"
     eval "$(pyenv virtualenv-init -)"
 
-Features
+Reload Shell Configuration : 
 
-    Feature 1: This is a cool feature
-    Feature 2: This is another cool feature
+    source ~/.bashrc
 
-Contributing
+    pyenv install <version> #YoloV5 requires Python 3.8.10
 
-If you'd like to contribute to this project, please follow these guidelines:
+    sudo apt install -y build-essential libssl-dev libbz2-dev libreadline-dev libsqlite3-dev zlib1g-dev libffi-dev libgdbm-dev #Run this command if got error during installation
 
-    Fork the repository
-    Make your changes
-    Submit a pull request
+Set global or local Python
 
-License
+    pyenv global <version>
+    pyenv local <version>
 
-This project is licensed under the MIT License.
+Create Virtual Environment
 
-Let me know if you'd like me to add anything else!
+    pyenv virtualenv <version> <env-name>
+    pyenv activate <env-name>
+
+To deactivate
+
+    pyenv deactivate
+
+**Clone this repository and install the dependencies and packages**
+
+    git clone https://github.com/AmDerp/PalletManagementSystem.git
+    cd PalletManagementSystem
+    pip install -r requirements.txt
+
+    
