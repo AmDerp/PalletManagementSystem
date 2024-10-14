@@ -6,11 +6,11 @@ Create a Virtual Environment
 
     Step 1: curl https://pyenv.run | bash
     Step 2: nano ~/.bashrc
-    Step 3: export PATH="$HOME/.pyenv/bin:$PATH"
-eval "$(pyenv init --path)"
-eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
-
+Add the code below at the end of the line. 
+    export PATH="$HOME/.pyenv/bin:$PATH"
+    eval "$(pyenv init --path)"
+    eval "$(pyenv init -)"
+    eval "$(pyenv virtualenv-init -)"
 
 Features
 
