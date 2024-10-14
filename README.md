@@ -1,13 +1,16 @@
-Welcome to My Project
+PalletManagementSystem
 
-This is a brief description of my project.
-Getting Started
+Getting Started : 
 
-To get started with this project, follow these steps:
+Create a Virtual Environment
 
-    Step 1: Clone the repository
-    Step 2: Install the dependencies
-    Step 3: Run the application
+    Step 1: curl https://pyenv.run | bash
+    Step 2: nano ~/.bashrc
+    Step 3: export PATH="$HOME/.pyenv/bin:$PATH"
+eval "$(pyenv init --path)"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+
 
 Features
 
